@@ -1,0 +1,224 @@
+/* Reset de estilos padrão do navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px
+}
+
+.img-header img {
+    width: 50%; /* Defina a largura da imagem como 50% da largura do contêiner pai */
+    max-height: 300px; /* Define uma altura máxima para a imagem para evitar distorções */
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-top: 20px; /* Adicione espaço acima do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+
+/* Estilos do menu lateral */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Sombra para a barra lateral */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Estilos para a seção main-content */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centraliza a seção na página */
+    max-width: 800px; /* Define uma largura máxima para o conteúdo */
+}
+
+.main-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.main-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.main-content li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para a tabela de preços */
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+ th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.box-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh; /* Isso irá centralizar verticalmente na metade da altura da janela de visualização */
+    background-color: #f0f0f0; /* Cor de fundo, opcional */
+    padding: 20px; /* Espaçamento interno, opcional */
+}
+
+/* Estilos para o mapa do Google */
+iframe {
+    border: none;
+    margin-top: 20px;
+}
+
+/* Estilos para o formulário de contato */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Estilos do conteúdo */
+.content {
+    margin-left: 250px; /* Deve ser igual à largura da barra lateral */
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.header img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    margin-top: 20px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
